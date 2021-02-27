@@ -30,7 +30,7 @@ A simple discord music bot made with discord.js and inspired by evobot
 
 ### Information
 
-* Make a file called "config.json" and fill out the following:
+* Fill the ```config.json``` with these:
 ```
 {
   "TOKEN": "YOUR_BOT_TOKEN",
