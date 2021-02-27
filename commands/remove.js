@@ -1,4 +1,4 @@
-const { canModifyQueue, LOCALE } = require("../util/EvobotUtil");
+const { canModifyQueue, LOCALE } = require("../util/AriaUtil");
 const i18n = require("i18n");
 i18n.setLocale(LOCALE);
 

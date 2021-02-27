@@ -1,13 +1,13 @@
 {
-  "name": "evobot",
+  "name": "Aria",
   "version": "0.10.0",
   "description": "Discord music bot built with discord.js",
   "main": "index.js",
   "author": "Erit Islami <eritislami@gmail.com>",
   "private": true,
-  "homepage": "https://github.com/eritislami/evobot",
-  "repository": "github:eritislami/evobot",
-  "bugs": "https://github.com/eritislami/evobot/issues",
+  "homepage": "https://github.com/Coffee-ly/Aria",
+  "repository": "github:Coffee-ly/Aria",
+  "bugs": "https://github.com/Coffee-ly/Aria/issues",
   "engines": {
     "node": ">=14.0.0"
   },

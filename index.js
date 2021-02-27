@@ -4,7 +4,7 @@
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
-const { TOKEN, PREFIX, LOCALE } = require("./util/EvobotUtil");
+const { TOKEN, PREFIX, LOCALE } = require("./util/AriaUtil");
 const path = require("path");
 const i18n = require("i18n");
 

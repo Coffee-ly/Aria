@@ -1,7 +1,7 @@
 {
-  "name": "EvoBot",
-  "description": "🤖 Discord Music Bot built with discord.js",
-  "repository": "https://github.com/eritislami/evobot",
-  "logo": "https://i.imgur.com/JFxgbWH.png",
-  "keywords": ["discord", "discordjs", "music", "bot"]
+  "name": "Aria",
+  "description": "🌸 A discord music bot made with discord.js!",
+  "repository": "https://github.com/Coffee-ly/Aria",
+  "logo": "https://i.imgur.com/0bZ1QZn.png",
+  "keywords": ["discord", "discordjs", "music", "bot", "discord.js-commando" , "Aria"]
 }
