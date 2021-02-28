@@ -39,7 +39,7 @@ A simple discord music bot made with discord.js and inspired by evobot
   "MAX_PLAYLIST_SIZE": 10,
   "PREFIX": "YOUR_BOT_PREFIX",
   "PRUNING": false,
-  "LOCALE": "en",
+  "LOCALE": "LANG",
   "STAY_TIME": 30,
   "DEFAULT_VOLUME": 100
 }
