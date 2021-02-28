@@ -68,4 +68,5 @@ Contributors names and contact info
 
 ## Invite 
 
+* The bot has an ```err 429``` due to the host im using, so it will temporarily be offline, feel free to invite it to your servers!
 * Invite the bot by [clicking here](https://discord.com/api/oauth2/authorize?client_id=814482715410956349&permissions=4294967287&scope=bot) 
