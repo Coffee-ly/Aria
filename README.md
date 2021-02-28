@@ -52,6 +52,7 @@ A simple discord music bot made with discord.js and inspired by evobot
 ## Frequent errors
 
 * You might get an error called ```StatusCode: 429``` this error mostly happens when you are using a bot host, it means that the host is being rate limited.
+* If the token doesnt work for a host type in the token [here](https://github.com/Coffee-ly/Aria/blob/0128f516c6fedb4e7d1679a7f49052caee209d94/index.js#L16)
 
 ## Authors
 
