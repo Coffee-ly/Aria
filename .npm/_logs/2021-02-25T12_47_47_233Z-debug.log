@@ -1,0 +1,200 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@6.14.8
+3 info using node@v12.19.1
+4 verbose config Skipping project config: /home/container/.npmrc. (matches userconfig)
+5 verbose npm-session b0747e08b9533bd0
+6 silly install runPreinstallTopLevelLifecycles
+7 silly preinstall evobot@0.10.0
+8 info lifecycle evobot@0.10.0~preinstall: evobot@0.10.0
+9 silly install loadCurrentTree
+10 silly install readLocalPackageData
+11 timing stage:loadCurrentTree Completed in 1193ms
+12 silly install loadIdealTree
+13 silly install cloneCurrentTreeToIdealTree
+14 timing stage:loadIdealTree:cloneCurrentTree Completed in 10ms
+15 silly install loadShrinkwrap
+16 timing stage:loadIdealTree:loadShrinkwrap Completed in 494ms
+17 silly install loadAllDepsIntoIdealTree
+18 timing stage:rollbackFailedOptional Completed in 1ms
+19 timing stage:runTopLevelLifecycles Completed in 1807ms
+20 silly saveTree evobot@0.10.0
+20 silly saveTree +-- @discordjs/opus@0.3.3
+20 silly saveTree | +-- @discordjs/node-pre-gyp@0.1.0
+20 silly saveTree | | +-- detect-libc@1.0.3
+20 silly saveTree | | +-- mkdirp@0.5.5
+20 silly saveTree | | | `-- minimist@1.2.5
+20 silly saveTree | | +-- needle@2.6.0
+20 silly saveTree | | | +-- debug@3.2.7
+20 silly saveTree | | | | `-- ms@2.1.3
+20 silly saveTree | | | +-- iconv-lite@0.4.24
+20 silly saveTree | | | | `-- safer-buffer@2.1.2
+20 silly saveTree | | | `-- sax@1.2.4
+20 silly saveTree | | +-- nopt@4.0.3
+20 silly saveTree | | | +-- abbrev@1.1.1
+20 silly saveTree | | | `-- osenv@0.1.5
+20 silly saveTree | | |   +-- os-homedir@1.0.2
+20 silly saveTree | | |   `-- os-tmpdir@1.0.2
+20 silly saveTree | | +-- npm-packlist@1.4.8
+20 silly saveTree | | | +-- ignore-walk@3.0.3
+20 silly saveTree | | | | `-- minimatch@3.0.4
+20 silly saveTree | | | |   `-- brace-expansion@1.1.11
+20 silly saveTree | | | |     +-- balanced-match@1.0.0
+20 silly saveTree | | | |     `-- concat-map@0.0.1
+20 silly saveTree | | | +-- npm-bundled@1.1.1
+20 silly saveTree | | | | `-- npm-normalize-package-bin@1.0.1
+20 silly saveTree | | | `-- npm-normalize-package-bin@1.0.1
+20 silly saveTree | | +-- npmlog@4.1.2
+20 silly saveTree | | | +-- are-we-there-yet@1.1.5
+20 silly saveTree | | | | +-- delegates@1.0.0
+20 silly saveTree | | | | `-- readable-stream@2.3.7
+20 silly saveTree | | | |   +-- core-util-is@1.0.2
+20 silly saveTree | | | |   +-- inherits@2.0.4
+20 silly saveTree | | | |   +-- isarray@1.0.0
+20 silly saveTree | | | |   +-- process-nextick-args@2.0.1
+20 silly saveTree | | | |   +-- safe-buffer@5.1.2
+20 silly saveTree | | | |   +-- string_decoder@1.1.1
+20 silly saveTree | | | |   `-- util-deprecate@1.0.2
+20 silly saveTree | | | +-- console-control-strings@1.1.0
+20 silly saveTree | | | +-- gauge@2.7.4
+20 silly saveTree | | | | +-- aproba@1.2.0
+20 silly saveTree | | | | +-- has-unicode@2.0.1
+20 silly saveTree | | | | +-- object-assign@4.1.1
+20 silly saveTree | | | | +-- signal-exit@3.0.3
+20 silly saveTree | | | | +-- string-width@1.0.2
+20 silly saveTree | | | | | +-- code-point-at@1.1.0
+20 silly saveTree | | | | | +-- is-fullwidth-code-point@1.0.0
+20 silly saveTree | | | | | | `-- number-is-nan@1.0.1
+20 silly saveTree | | | | | `-- strip-ansi@3.0.1
+20 silly saveTree | | | | |   `-- ansi-regex@2.1.1
+20 silly saveTree | | | | +-- strip-ansi@3.0.1
+20 silly saveTree | | | | `-- wide-align@1.1.3
+20 silly saveTree | | | `-- set-blocking@2.0.0
+20 silly saveTree | | +-- rc@1.2.8
+20 silly saveTree | | | +-- deep-extend@0.6.0
+20 silly saveTree | | | +-- ini@1.3.8
+20 silly saveTree | | | `-- strip-json-comments@2.0.1
+20 silly saveTree | | +-- rimraf@3.0.2
+20 silly saveTree | | | `-- glob@7.1.6
+20 silly saveTree | | |   +-- fs.realpath@1.0.0
+20 silly saveTree | | |   +-- inflight@1.0.6
+20 silly saveTree | | |   | +-- once@1.4.0
+20 silly saveTree | | |   | | `-- wrappy@1.0.2
+20 silly saveTree | | |   | `-- wrappy@1.0.2
+20 silly saveTree | | |   +-- once@1.4.0
+20 silly saveTree | | |   `-- path-is-absolute@1.0.1
+20 silly saveTree | | +-- semver@7.3.4
+20 silly saveTree | | | `-- lru-cache@6.0.0
+20 silly saveTree | | |   `-- yallist@4.0.0
+20 silly saveTree | | `-- tar@6.1.0
+20 silly saveTree | |   +-- chownr@2.0.0
+20 silly saveTree | |   +-- fs-minipass@2.1.0
+20 silly saveTree | |   | `-- minipass@3.1.3
+20 silly saveTree | |   +-- minipass@3.1.3
+20 silly saveTree | |   +-- minizlib@2.1.2
+20 silly saveTree | |   `-- mkdirp@1.0.4
+20 silly saveTree | `-- node-addon-api@3.1.0
+20 silly saveTree +-- array-move@3.0.1
+20 silly saveTree +-- discord.js@12.5.1
+20 silly saveTree | +-- @discordjs/collection@0.1.6
+20 silly saveTree | +-- @discordjs/form-data@3.0.1
+20 silly saveTree | | +-- asynckit@0.4.0
+20 silly saveTree | | +-- combined-stream@1.0.8
+20 silly saveTree | | | `-- delayed-stream@1.0.0
+20 silly saveTree | | `-- mime-types@2.1.28
+20 silly saveTree | |   `-- mime-db@1.45.0
+20 silly saveTree | +-- abort-controller@3.0.0
+20 silly saveTree | | `-- event-target-shim@5.0.1
+20 silly saveTree | +-- node-fetch@2.6.1
+20 silly saveTree | +-- prism-media@1.2.3
+20 silly saveTree | +-- setimmediate@1.0.5
+20 silly saveTree | +-- tweetnacl@1.0.3
+20 silly saveTree | `-- ws@7.4.3
+20 silly saveTree +-- ffmpeg-static@4.2.7
+20 silly saveTree | +-- @derhuerst/http-basic@8.2.1
+20 silly saveTree | | +-- caseless@0.12.0
+20 silly saveTree | | +-- concat-stream@1.6.2
+20 silly saveTree | | | +-- buffer-from@1.1.1
+20 silly saveTree | | | `-- typedarray@0.0.6
+20 silly saveTree | | +-- http-response-object@3.0.2
+20 silly saveTree | | | `-- @types/node@10.17.51
+20 silly saveTree | | `-- parse-cache-control@1.0.1
+20 silly saveTree | +-- env-paths@2.2.0
+20 silly saveTree | +-- https-proxy-agent@5.0.0
+20 silly saveTree | | +-- agent-base@6.0.2
+20 silly saveTree | | | `-- debug@4.3.1
+20 silly saveTree | | |   `-- ms@2.1.2
+20 silly saveTree | | `-- debug@4.3.1
+20 silly saveTree | |   `-- ms@2.1.2
+20 silly saveTree | `-- progress@2.0.3
+20 silly saveTree +-- fs@0.0.1-security
+20 silly saveTree +-- i18n@0.13.2
+20 silly saveTree | +-- debug@4.3.1
+20 silly saveTree | | `-- ms@2.1.2
+20 silly saveTree | +-- make-plural@6.2.2
+20 silly saveTree | +-- math-interval-parser@2.0.1
+20 silly saveTree | +-- messageformat@2.3.0
+20 silly saveTree | | +-- make-plural@4.3.0
+20 silly saveTree | | +-- messageformat-formatters@2.0.1
+20 silly saveTree | | `-- messageformat-parser@4.1.3
+20 silly saveTree | +-- mustache@4.1.0
+20 silly saveTree | `-- sprintf-js@1.1.2
+20 silly saveTree +-- lyrics-finder@21.7.0
+20 silly saveTree | +-- encoding@0.1.13
+20 silly saveTree | | `-- iconv-lite@0.6.2
+20 silly saveTree | `-- html-to-text@5.1.1
+20 silly saveTree |   +-- he@1.2.0
+20 silly saveTree |   +-- htmlparser2@3.10.1
+20 silly saveTree |   | +-- domelementtype@1.3.1
+20 silly saveTree |   | +-- domhandler@2.4.2
+20 silly saveTree |   | +-- domutils@1.7.0
+20 silly saveTree |   | | `-- dom-serializer@0.2.2
+20 silly saveTree |   | |   +-- domelementtype@2.1.0
+20 silly saveTree |   | |   `-- entities@2.1.0
+20 silly saveTree |   | +-- entities@1.1.2
+20 silly saveTree |   | `-- readable-stream@3.6.0
+20 silly saveTree |   `-- lodash@4.17.20
+20 silly saveTree +-- path@0.12.7
+20 silly saveTree | +-- process@0.11.10
+20 silly saveTree | `-- util@0.10.4
+20 silly saveTree |   `-- inherits@2.0.3
+20 silly saveTree +-- simple-youtube-api@5.2.1
+20 silly saveTree | `-- iso8601-duration@1.3.0
+20 silly saveTree +-- soundcloud-downloader@0.2.4
+20 silly saveTree | +-- @babel/runtime@7.12.5
+20 silly saveTree | | `-- regenerator-runtime@0.13.7
+20 silly saveTree | +-- axios@0.21.1
+20 silly saveTree | | `-- follow-redirects@1.13.1
+20 silly saveTree | +-- dotenv@8.2.0
+20 silly saveTree | +-- m3u8stream@0.8.3
+20 silly saveTree | | `-- miniget@4.1.0
+20 silly saveTree | `-- soundcloud-key-fetch@1.0.11
+20 silly saveTree +-- string-progressbar@1.0.3
+20 silly saveTree `-- ytdl-core-discord@1.2.5
+20 silly saveTree   +-- @types/node@14.14.22
+20 silly saveTree   `-- ytdl-core@4.4.5
+21 verbose stack Error: Invalid package name "ytdl-core@latest": name can only contain URL-friendly characters
+21 verbose stack     at invalidPackageName (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:86:15)
+21 verbose stack     at Result.setName (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:121:11)
+21 verbose stack     at new Result (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:111:23)
+21 verbose stack     at Function.resolve (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:58:15)
+21 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/deps.js:493:20
+21 verbose stack     at Array.map (<anonymous>)
+21 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/deps.js:492:47
+21 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+21 verbose stack     at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:517:31)
+21 verbose stack     at Promise._settlePromise (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:574:18)
+21 verbose stack     at Promise._settlePromiseCtx (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:611:10)
+21 verbose stack     at _drainQueueStep (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:142:12)
+21 verbose stack     at _drainQueue (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:131:9)
+21 verbose stack     at Async._drainQueues (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:147:5)
+21 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:17:14)
+21 verbose stack     at processImmediate (internal/timers.js:461:21)
+22 verbose cwd /home/container
+23 verbose Linux 4.15.0-135-generic
+24 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+25 verbose node v12.19.1
+26 verbose npm  v6.14.8
+27 error code EINVALIDPACKAGENAME
+28 error Invalid package name "ytdl-core@latest": name can only contain URL-friendly characters
+29 verbose exit [ 1, true ]
