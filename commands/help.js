@@ -12,7 +12,7 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-      .setTitle(i18n.__mf("help.embedTitle", { botname: message.client.user.username }))
+      .setTitle('Aria\'s Help Center!')
       .setDescription(i18n.__("help.embedDescription"))
       .setColor("#e893ff");
 
