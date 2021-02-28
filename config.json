@@ -1,11 +1,1 @@
-{
-    "TOKEN": "YOUR_BOT_TOKEN",
-    "YOUTUBE_API_KEY": "YOUR_YOUTUBE_API_KEY",
-    "SOUNDCLOUD_CLIENT_ID": "YOU_SOUNDCLOUD_CLIENT",
-    "MAX_PLAYLIST_SIZE": 10,
-    "PREFIX": "YOUR_BOT_PREFIX",
-    "PRUNING": false,
-    "LOCALE": "en",
-    "STAY_TIME": 30,
-    "DEFAULT_VOLUME": 100
-  }
+// check README.md to see what to type here
